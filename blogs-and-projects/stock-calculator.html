@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Stock Project</title>
+		<link rel="icon" href='../images/nkemLogo.jpeg' type="image/png">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body id="top">
+
+		<!-- Header -->
+		<header id="header">
+			<div class="inner">
+				<a href="../index.html" class="image avatar"><img src="../images/FullSizeRender.jpg" alt="Nkem's Profile" /></a>
+				<a href="../index.html"><h1><b>NKEM EGBOGA</b></h1></a>
+					<h1><h1 id = "leftTab">Researcher</h1>
+					<h1 id = "leftTab">Data Scientist</h1>
+					<h1 id = "leftTab">Petroleum Engineer</h1>
+					<h1 id = "leftTab">Front End Web Developer</h1>
+				<h1 id = "leftTabResume"><a href="https://www.dropbox.com/s/2mo3gy0d2x5k8hl/Nkem%20Egboga%20Resume%202017.pdf?dl=0" target="_blank" class="icon fa-file-pdf-o"><span id = 'leftTabResume'> View Resume</span></a></h1></h1>
+			</div>
+		</header>
+
+<div id="main">
+			<h2>Stock Market Information</h2>
+					<p id = 'dateText'>Last Updated: 03/08/2017</p>
+					<p>This application uses the markitondemand API to retrieve stock data for companies traded on the BATS Stock Exchange.</p>
+					<p>Might not work if adblocker is turned on.</p>
+					<p>Enter a Company Name:</p>
+				<form name="Stocks">
+					<div class="6u 12u$(xsmall)"><input id="stock_search" type="text" type = 'submit' placeholder="Company Name"></div>
+				</form>
+				<p><button id="stockBtn" class = 'button'>Get Stock Information</button></p>
+				<p><button id="clearBtn" class = 'button'>Clear Results</button></p>
+					<p id="resultsFail"></p>
+				<p id="results"></p>
+</div>
+
+      <!-- Footer -->
+        <footer id="footer">
+          <div class="inner">
+						<a href="../index.html#three"><h1 id = 'leftTab'>Contact</h1></a>
+            <ul class="icons">
+              <li><a href="../index.html" class="icon fa-home"><span class="label">Home</span></a></li>
+              <!-- <li><a href="https://www.dropbox.com/s/2mo3gy0d2x5k8hl/Nkem%20Egboga%20Resume%202017.pdf?dl=0" target="_blank" class="icon fa-file-pdf-o"><span> Resume</span></a></li> -->
+              <li><a href="https://github.com/nkemegboga" target="_blank" class="icon fa-github"><span class="label">Github</span></a></li>
+              <li><a href="https://www.linkedin.com/in/nkemegboga/" target="_blank" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
+              <li><a href="https://itunes.apple.com/us/podcast/word-on-the-pitch/id1173615737?mt=2" target="_blank" class="icon fa-podcast"><span class="label">Podcast</span></a></li>
+              <li><a href="mailto:nkemegboga@yahoo.ca?Subject=Enquiry" target="_blank" class="icon fa-envelope"><span class="label">Email</span></a></li>
+            </ul>
+          </div>
+        </footer>
+
+      <!-- Scripts -->
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+			  <script type="text/javascript" src="../assets/js/stock-calculator.js"></script>
+        <script src="../assets/js/jquery.min.js"></script>
+        <script src="../assets/js/jquery.poptrox.min.js"></script>
+        <script src="../assets/js/skel.min.js"></script>
+        <script src="../assets/js/util.js"></script>
+        <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+        <script src="../assets/js/main.js"></script>
+
+    </body>
+    </html>
