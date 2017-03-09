@@ -11,14 +11,14 @@ $("#stockBtn").click(function(){
     stock = $('#stock_search').val();
 
     $.ajax({
-      url: 'https://cors-anywhere.herokuapp.com/http://dev.markitondemand.com/Api/v2/Lookup/jsonp?',
+      url: 'http://dev.markitondemand.com/Api/v2/Lookup/jsonp?',
       data: {'input': stock},
       jsonp: "callback",
       dataType: "jsonp",
       success: function(jsonResult1){
         if (jsonResult1.length >=1){
       $.ajax({
-        url: 'https://cors-anywhere.herokuapp.com/http://dev.markitondemand.com/Api/v2/Quote/jsonp?',
+        url: 'http://dev.markitondemand.com/Api/v2/Quote/jsonp?',
         data: {'symbol': jsonResult1[0].Symbol},
         jsonp: "callback",
         dataType: "jsonp",
