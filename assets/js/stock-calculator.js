@@ -1,4 +1,3 @@
-console.log('Nkem')
 $(document).ready(function() {
   $('#stock_search').keypress(function(e) {
        if(e.which == 13) {
